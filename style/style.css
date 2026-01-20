@@ -251,6 +251,7 @@ ul li a {
     padding-bottom: 20px;
 }
 
+
 .episode-card i {
     color: #00FF88;
     font-size: 25px;
@@ -268,4 +269,63 @@ ul li a {
     gap: 80px;
     padding-left: 50px;
 
+}
+
+
+
+
+.choose {
+    background-color: #230E3D;
+    padding: 40px 0;
+    
+}
+.choose h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    padding: 40px 0;
+}
+
+#choose-para {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card-1 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.card-2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.card-3 {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+#box {
+    background-color: #351165;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#box * {
+    margin-bottom: 15px;
+}
+
+#box h4 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#box p {
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 16px;
 }
