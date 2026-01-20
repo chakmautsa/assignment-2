@@ -233,3 +233,39 @@ ul li a {
     text-align: center;
     line-height: 20px;
 }
+
+.episode {
+    background-color: #230E3D;
+    padding: 30px 0;
+
+}
+
+.episode-card h2 {
+    color: #00FF88;
+    font-size: 48px;
+}
+
+.episode-card h2 i {
+    color: #00FF88;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.episode-card i {
+    color: #00FF88;
+    font-size: 25px;
+}
+
+.episode-card p {
+    color: #FFFFFF;
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+#episode-para {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    padding-left: 50px;
+
+}
