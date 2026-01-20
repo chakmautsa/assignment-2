@@ -454,7 +454,7 @@ padding: 50px 0;
 }
 
 footer {
-background-image: url(./assets/footer-bg.png);
+background-image: url(/assets/footer-bg.png);
 width: 100%;
 height: 26.23rem;
 background-position: center;
@@ -512,6 +512,561 @@ gap: 2.10rem;
     background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
     background-clip: text;
     color: transparent;
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+    .layout-container {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .hero-circle img {
+        width: 22.8rem;
+        top: 10%;
+        left: 38.5%;
+    }
+
+    #micro {
+
+        width: 10%;
+        height: 30%;
+        top: 40%;
+        left: 50%;
+
+    }
+
+    .new-btn {
+        font-size: 18px;
+        top: 12%;
+        left: 55%;
+
+    }
+
+    .hero-content {
+        padding-top: 35%;
+    }
+
+    .feature-episode-para {
+
+        gap: 40px;
+    }
+
+    .feature-episode-card {
+        width: 350px;
+        height: 500px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .layout-container {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .hero-circle img {
+
+
+
+
+        width: 30%;
+        top: 10%;
+        left: 35%;
+    }
+
+    #micro {
+
+
+
+        width: 10%;
+        top: 24%;
+        height: 20%;
+        left: 45%;
+
+    }
+
+    .new-btn {
+        font-size: 15px;
+        top: 12%;
+        left: 56%;
+
+    }
+
+    .hero-content {
+        text-align: center;
+        padding-bottom: 30px;
+
+
+    }
+
+    .hero-content h1 {
+        color: #FFFFFF;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 12px;
+
+    }
+
+    .hero-content p {
+        color: #FFFFFF;
+        margin-bottom: 15px;
+        padding: 0 15PX;
+        font-size: 13px;
+    }
+
+    .feature-episode-para {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 993px) {
+    .layout-container {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .hero-circle img {
+        width: 31%;
+        top: 10%;
+        left: 35%;
+    }
+
+    #choose-para {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #box {
+        width: 100%;
+
+    }
+
+    .choose h2 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+
+    .choose {
+        background-color: #230E3D;
+        padding: 60px 0;
+    }
+
+    #episode-para {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+        padding-left: 80px;
+
+    }
+
+    .episode-card h2 {
+        font-size: 45px;
+    }
+
+    .episode-card h2 i {
+        font-size: 20px;
+    }
+
+    .feature-episode-para {
+
+
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .meet-para {
+
+
+
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 777px) {
+    .layout-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    ul {
+        display: none;
+    }
+
+    #choose-para {
+
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    #box {
+        width: 100%;
+
+    }
+
+
+
+
+    .choose h2 {
+
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .choose {
+        background-color: #230E3D;
+        padding: 40px 0;
+    }
+
+    #episode-para {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        padding-left: 60px;
+
+    }
+
+    .episode-card h2 {
+        font-size: 40px;
+    }
+
+    .episode-card h2 i {
+        font-size: 20px;
+    }
+
+    .feature-episode-para {
+
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .feature-episode-card {
+        width: 100%;
+    }
+
+    .feature-episode {
+        padding: 40px 0;
+    }
+
+    .feature-episodeheading h1 {
+        font-size: 45px;
+    }
+
+    .feature-content h2 {
+        font-size: 25px;
+    }
+
+    .frame {
+        max-width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .meet-para {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .layout-container {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    ul {
+        display: none;
+    }
+
+    #navicon {
+        display: block;
+        font-size: 28px;
+        color: #FFFFFF;
+        margin-right: 5px;
+    }
+
+    .navbtn button {
+        display: none;
+    }
+
+    .navname {
+        margin-left: 5px;
+    }
+
+    .hero-circle img {
+        width: 50%;
+        top: 10%;
+        left: 25%;
+    }
+
+    #micro {
+        width: 10%;
+        top: 24%;
+        height: 20%;
+        left: 45%;
+
+    }
+
+    .new-btn {
+        font-size: 15px;
+        top: 12%;
+        left: 60%;
+
+    }
+
+    .hero-content {
+        text-align: center;
+        padding-bottom: 30px;
+
+
+    }
+
+    .hero-content h1 {
+        color: #FFFFFF;
+        font-size: 27px;
+        font-weight: 700;
+        margin-top: 150px;
+        margin-bottom: 12px;
+
+    }
+
+    .hero-content p {
+        color: #FFFFFF;
+        margin-bottom: 15px;
+        padding: 0 15PX;
+        font-size: 13px;
+    }
+
+    #choose-para {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #box {
+        width: 100%;
+
+    }
+
+    .choose h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .choose {
+        background-color: #230E3D;
+        padding: 30px 0;
+    }
+
+    .about-heading h1 {
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 32PX;
+        font-weight: bold;
+        padding: 20PX 0;
+    }
+
+    .about-heading p {
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    #episode-para {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-left: 40px;
+
+    }
+
+    .episode-card h2 {
+        font-size: 40px;
+    }
+
+    .episode-card h2 i {
+        font-size: 20px;
+    }
+
+    .feature-episode-para {
+
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .feature-episode-card {
+        width: 100%;
+    }
+
+    .feature-episode {
+        padding: 40px 0;
+    }
+
+    .feature-episodeheading h1 {
+        font-size: 35px;
+    }
+
+    .feature-content h2 {
+        font-size: 23px;
+    }
+
+    .frame {
+        max-width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .meet-para {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    #footer-content {
+        text-align: center;
+        padding-top: 6.5%;
+
+    }
+
+    .footer-all-para {
+        display: grid;
+        gap: 20px;
+        padding-top: 32px;
+        padding-left: 60px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-copy {
+        padding-bottom: 20px;
+        padding-top: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .footer-box p {
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .footer-box img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .footer-name h2 {
+        font-size: 30px;
+        color: #FFFFFF;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+
+    #footer-content {
+        text-align: center;
+        padding-top: 6.5%;
+
+    }
+
+
+    footer {
+        background-image: url(/assets/footer-bg.png);
+        width: 100%;
+        height: 230px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:370px) {
+    .hero-circle img {
+        width: 54%;
+        top: 14%;
+        left: 23%;
+    }
+
+    #micro {
+        width: 10%;
+        top: 25%;
+        height: 20%;
+        left: 45%;
+
+    }
+
+    .new-btn {
+        font-size: 14px;
+        top: 12%;
+        left: 58%;
+
+    }
+
+    .hero-content {
+        text-align: center;
+        padding-bottom: 30px;
+
+
+    }
+
+    .hero-content h1 {
+        color: #FFFFFF;
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 140px;
+        margin-bottom: 12px;
+
+    }
+
+    .hero-content p {
+        color: #FFFFFF;
+        font-size: 14px;
+        margin-bottom: 15px;
+        padding: 0 15PX;
+    }
+
 
 
 }
