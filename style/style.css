@@ -211,3 +211,25 @@ ul li a {
     background-color: #FFFFFF;
     color: #1A0B2E;
 }
+
+
+
+.about {
+    background-color: #230E3D;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.about-heading h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 48PX;
+    font-weight: bold;
+    padding: 20PX 0;
+}
+
+.about-heading p {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+}
